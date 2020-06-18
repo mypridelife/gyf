@@ -1,0 +1,57 @@
+body {
+  background-color: #ffffff;
+  font-size: 28rpx;
+  color: #333333;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback', 'LucidaGrande';
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+uni-page-body {
+  height: 100%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.start-center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-md-12 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.col-md-4 {
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+}
+
+.col-md-3 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
